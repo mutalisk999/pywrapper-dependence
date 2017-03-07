@@ -309,7 +309,7 @@ typedef Py_intptr_t     Py_ssize_t;
 #include <ieeefp.h>  /* needed for 'finite' declaration on some platforms */
 #endif
 
-#include <math.h> /* Moved here from the math section, before extern "C" */
+//#include <math.h> /* Moved here from the math section, before extern "C" */
 
 /********************************************
  * WRAPPER FOR <time.h> and/or <sys/time.h> *
